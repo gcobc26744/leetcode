@@ -17,7 +17,7 @@ class Solution:
         # Find the complement
         for i in range(n):
             complement = target - nums[i]
-            if complement in numMap and numMap[complement] != i:
+            if complement in numMap and numMap[complement]!= i:
                 return [i, numMap[complement]]
         return [] 
 # @lc code=end
